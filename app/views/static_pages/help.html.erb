@@ -1,8 +1,8 @@
-<% provide :title, t(".title") %>
-<h1><%= t ".header" %></h1>
-<p><%= sanitize t(".content",
-  link_page: link_to(t(".text_help_page"),
-    Settings.rails_help),
-  link_book: link_to(sanitize(t(".text_book")),
-    Settings.rails_book)) %>
+<% provide :title, t("help.title") %>
+<h1><%= t "help.title" %></h1>
+<p>
+  <%= sanitize t("help.content",
+    rails_tutorial: link_to(t("rails_tutorial"), Settings.rails_tutorial),
+    book: link_to(t("rails_book"), Settings.rails_book))
+  %>
 </p>

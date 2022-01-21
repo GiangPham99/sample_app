@@ -1,34 +1,29 @@
 vi:
-  base_title: "Hướng dan Ruby on Rails Sample App"
-  static_pages:
-    about:
-      header: "Về nội dung"
-      title: "Về nội dung"
-      content: "%{link_rails_tutorial}, là một phần trong nhóm %{link_learnenough}
-        các bài giảng hướng dẫn, là một %{link_book} và %{link_screencast} để
-        dạy phát triển web với %{link_rails}.
-        Đây là ứng dụng mẫu cho hướng dẫn này."
-      text:
-        book: "Quyển sách"
-        learnenough: "Learn Enough"
-        rails: "Ruby on Rails"
-        rails_tutorial: "<em>Hướng dẫn Ruby on Rails</em>"
-    contact:
-      header: "Liên hệ"
-      title: "Liên hệ"
-      content: "Liên hệ với Hướng dẫn Ruby on Rails về
-        ứng dụng mẫu tại %{link}."
-      text: "trang liên hệ"
-    help:
-      header: "Trợ giúp"
-      title: "Trợ giúp"
-      content: "Nhận trợ giúp với Hướng dẫn Ruby on Rails tại
-        %{link_page}. Để nhận trợ giúp với ứng dụng mẫu này, xem tại
-        %{link_book}."
-      text_page: "Trang Hướng dẫn trợ giúp Rails"
-      text_book: "sách <em>Hướng dẫn Ruby on Rails</em>"
-    home:
-      header: "Ứng dụng mẫu"
-      title: "Trang chủ"
-      content: "Đây là trang chủ cho ứng dụng mẫu của %{link}."
-      text: "Hướng dẫn Ruby on Rails"
+  rails: "Ruby on Rails"
+  rails_tutorial: "Hướng dẫn Ruby on Rails"
+  rails_book: "Sách dạy Ruby on Rails"
+  rails_contact: "Trang liên lạc Ruby on Rails"
+  log_in: "Đăng nhập"
+  sign_up: "Đăng ký"
+  new_users: "Đây sẽ là trang đăng ký cho người dùng mới."
+  news: "Tin Tức"
+  michael_hartl: " - Michael Hartl"
+  app:
+    title: "Ứng dụng mẫu"
+  home:
+    title: "Trang chủ"
+    content: "Đây là trang chủ của ứng dụng mẫu %{link}."
+  about:
+    title: "Về chúng tôi"
+    content: "%{rails_tutorial}, một phần của %{learn}, là
+              %{book} và %{screencasts} để dạy lập trình web %{rails}.
+              Đây là chương trình ví dụ của khóa học."
+  help:
+    title: "Trợ giúp"
+    content: "Tìm sự trợ giúp về khóa học Ruby on Rails ở %{rails_tutorial}.
+              Để được trợ giúp về ứng dụng mẫu này, xem %{book}"
+  contact:
+    title: "Liên hệ"
+    content: "Liên hệ khóa học Ruby on Rails Tutorial về phần mềm mẫu ở
+              %{rails_contact}."
+            
